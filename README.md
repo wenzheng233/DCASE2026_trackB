@@ -17,8 +17,6 @@ ARTIFACTS.md          Artifact inventory and provenance
 NEXT_STEPS.md         Follow-up experiment notes
 ```
 
-Large generated prediction folders and submission archives are intentionally excluded. Model weights are also excluded; see [`.gitignore`](.gitignore). The official submission package is available under [`official_submission/task3`](official_submission/task3), with system metadata and development metrics in [`official_submission/manifest.json`](official_submission/manifest.json).
-
 ## Submitted systems
 
 The values below are development-set metrics recorded in the submission manifest. Each system contains 79 prediction JSON files.
