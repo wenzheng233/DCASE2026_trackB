@@ -1,0 +1,133 @@
+{
+  "created": "2026-06-16",
+  "package_root": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/20260616_task3b_four_systems",
+  "systems": [
+    {
+      "class_counts": {
+        "0": 15955,
+        "1": 17730,
+        "10": 25,
+        "12": 1,
+        "2": 110,
+        "4": 1015,
+        "6": 23001,
+        "9": 408
+      },
+      "clean_status": "clean",
+      "dev_macro_mAP": 0.0830865,
+      "dev_micro_mAP": 0.07924123,
+      "json_files": 79,
+      "label": "Yang_AVSELD_task3b_1",
+      "max_json_bytes": 11002657,
+      "max_score": 1.0,
+      "name": "Clean v16 plus 2023 prior micro energyasc",
+      "source_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_6_c6thr0p22_no_3_5_7_8_11_tiebreak_walkfirst_energyasc_track2_blind/inference_outputs",
+      "total_annotations": 58245
+    },
+    {
+      "class_counts": {
+        "0": 15955,
+        "1": 17730,
+        "10": 25,
+        "12": 1,
+        "2": 110,
+        "4": 1015,
+        "6": 23001,
+        "9": 408
+      },
+      "clean_status": "clean",
+      "dev_macro_mAP": 0.08321187,
+      "dev_micro_mAP": 0.07625635,
+      "json_files": 79,
+      "label": "Yang_AVSELD_task3b_2",
+      "max_json_bytes": 11002657,
+      "max_score": 1.0,
+      "name": "Clean v16 plus 2023 prior micro walkfirst",
+      "source_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_6_c6thr0p22_no_3_5_7_8_11_tiebreak_walkfirst_track2_blind/inference_outputs",
+      "total_annotations": 58245
+    },
+    {
+      "class_counts": {
+        "1": 17831
+      },
+      "clean_status": "clean",
+      "dev_macro_mAP": 0.15075013,
+      "dev_micro_mAP": 0.04172099,
+      "json_files": 79,
+      "label": "Yang_AVSELD_task3b_3",
+      "max_json_bytes": 3226137,
+      "max_score": 1.0,
+      "name": "Clean v16 plus 2023 prior macro male only",
+      "source_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p75_score1_count_per_class_keep_1_track2_blind/inference_outputs",
+      "total_annotations": 17831
+    },
+    {
+      "class_counts": {
+        "0": 20498,
+        "1": 13051,
+        "10": 261,
+        "3": 19,
+        "5": 288,
+        "6": 11027,
+        "7": 212,
+        "8": 6,
+        "9": 7844
+      },
+      "clean_status": "non-clean",
+      "dev_macro_mAP": 0.17580016,
+      "dev_micro_mAP": 0.16672519,
+      "json_files": 79,
+      "label": "Yang_AVSELD_task3b_4",
+      "max_json_bytes": 17230573,
+      "max_score": 0.963738,
+      "name": "Non-clean v14 raw risk candidate",
+      "source_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/nonclean_v14_raw_track2_blind/merged_preds",
+      "total_annotations": 53206
+    }
+  ],
+  "zips": {
+    "Yang_AVSELD_task3b_1.zip": {
+      "path": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/zips/Yang_AVSELD_task3b_1.zip",
+      "sha256": "68b241d18da29487fda5e7d9eda3ba447f54befaa5ae3398e1b496e87826ecaa",
+      "strict_official_layout": true,
+      "systems": [
+        "Yang_AVSELD_task3b_1"
+      ]
+    },
+    "Yang_AVSELD_task3b_2.zip": {
+      "path": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/zips/Yang_AVSELD_task3b_2.zip",
+      "sha256": "fb133ac8a9d14c71a9ad8357757b56936aef0e3358db300ca91835e9bc3c6042",
+      "strict_official_layout": true,
+      "systems": [
+        "Yang_AVSELD_task3b_2"
+      ]
+    },
+    "Yang_AVSELD_task3b_20260616_four_systems.zip": {
+      "path": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/zips/Yang_AVSELD_task3b_20260616_four_systems.zip",
+      "sha256": "4e0be690420b156b16c83831b2012fb928d994742e5b8c2769e9459900e3e8fe",
+      "strict_official_layout": true,
+      "systems": [
+        "Yang_AVSELD_task3b_1",
+        "Yang_AVSELD_task3b_2",
+        "Yang_AVSELD_task3b_3",
+        "Yang_AVSELD_task3b_4"
+      ]
+    },
+    "Yang_AVSELD_task3b_3.zip": {
+      "path": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/zips/Yang_AVSELD_task3b_3.zip",
+      "sha256": "645da8502b1c7425fbaaedf9762554e0523a6f1b68987ca5b0a611e3e5d2ec8f",
+      "strict_official_layout": true,
+      "systems": [
+        "Yang_AVSELD_task3b_3"
+      ]
+    },
+    "Yang_AVSELD_task3b_4.zip": {
+      "path": "/home/yishuoyang/AV-SELD/v16_23prior/official_submissions/zips/Yang_AVSELD_task3b_4.zip",
+      "sha256": "21187bb5cc653f967075a5b0600ab3172d5ed9aa41b26e85fcdd9c6b78ba2f6d",
+      "strict_official_layout": true,
+      "systems": [
+        "Yang_AVSELD_task3b_4"
+      ]
+    }
+  }
+}

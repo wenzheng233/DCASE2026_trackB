@@ -1,0 +1,4 @@
+source_outputs/
+submission_zips/
+checkpoints/*.ckpt
+checkpoints/*.pth

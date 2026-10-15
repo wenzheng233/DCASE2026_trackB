@@ -1,0 +1,64 @@
+[blind-prior] teacher_raw=/home/yishuoyang/AV-SELD/output/dcase2023_track2_blind_model007_20260615/0.000050/mix_names
+[blind-prior] teacher_csv=79 raw_pred=79
+[hybrid] 10/79 files
+[hybrid] 20/79 files
+[hybrid] 30/79 files
+[hybrid] 40/79 files
+[hybrid] 50/79 files
+[hybrid] 60/79 files
+[hybrid] 70/79 files
+[hybrid] 79/79 files
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_raw_track2_blind/merged_preds",
+  "teacher_csv_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/teacher23_track2_blind_mapped",
+  "out_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_track2_blind",
+  "match_thr_deg": 14.5,
+  "shift_to_teacher_doa": false,
+  "score_mode": "matched_one",
+  "unmatched": "keep",
+  "coord_convention": "stairs26",
+  "keep_teacher_metadata": false,
+  "input_annotations": 174378,
+  "output_annotations": 174378,
+  "matched": 25990,
+  "unmatched_count": 148388,
+  "class_changed": 16515,
+  "shifted": 0,
+  "mean_nearest_teacher_dist_deg": 70.14335007939033
+}
+[count-prior] 10/79 files
+[count-prior] 20/79 files
+[count-prior] 30/79 files
+[count-prior] 40/79 files
+[count-prior] 50/79 files
+[count-prior] 60/79 files
+[count-prior] 70/79 files
+[count-prior] 79/79 files
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_track2_blind/inference_outputs",
+  "teacher_csv_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/teacher23_track2_blind_mapped",
+  "out_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_10_11_12_track2_blind",
+  "count_mode": "per_class",
+  "keep_order": false,
+  "score_thr_by_class": {},
+  "default_score_thr": 0.0,
+  "uncapped_classes": [
+    10,
+    11,
+    12
+  ],
+  "input_annotations": 174378,
+  "output_annotations": 38718,
+  "dropped_score": 0,
+  "dropped_class": 11362,
+  "dropped_class_zero": 124298,
+  "dropped_total": 0,
+  "dropped_total_zero": 0,
+  "kept_class": 38640,
+  "kept_class_uncapped": 78,
+  "kept_total": 0,
+  "invalid_category": 0
+}
+[blind-prior] final_predictions=79
+[blind-prior] largest=6450190 /home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_10_11_12_track2_blind/inference_outputs/fold9_room0_mix018_inference.json
+[blind-prior] DONE final=/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_10_11_12_track2_blind/inference_outputs

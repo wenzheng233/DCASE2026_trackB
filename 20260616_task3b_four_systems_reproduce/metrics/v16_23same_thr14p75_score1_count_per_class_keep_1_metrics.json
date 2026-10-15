@@ -1,0 +1,219 @@
+{
+  "macro_mAP": 0.15075013445069393,
+  "macro_AP50": 0.1879570037126541,
+  "macro_AP75": 0.01182990986853838,
+  "macro_pearson_r": 0.5948037132090886,
+  "micro_mAP": 0.04172098978112141,
+  "micro_AP50": 0.05079609900712967,
+  "micro_AP75": 0.009900989942252636,
+  "micro_pearson_r": 0.5948037132090886,
+  "micro_pearson_n": 14016,
+  "macro_AP_per_thr": [
+    0.2524634897708893,
+    0.1879570037126541,
+    0.01182990986853838
+  ],
+  "micro_AP_per_thr": [
+    0.06446588039398193,
+    0.05079609900712967,
+    0.009900989942252636
+  ],
+  "iou_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "breakdown_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "per_class": {
+    "Female speech": {
+      "n_gt": 27070,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Male speech": {
+      "n_gt": 38297,
+      "n_det": 17613,
+      "AP50": 0.1879570037126541,
+      "AP75": 0.01182990986853838,
+      "mAP": 0.15075013445069393,
+      "AP_per_thr": [
+        0.2524634897708893,
+        0.1879570037126541,
+        0.01182990986853838
+      ],
+      "pearson_r": 0.5948037132090886,
+      "pearson_n": 14016
+    },
+    "Clapping": {
+      "n_gt": 693,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Telephone": {
+      "n_gt": 865,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Laughter": {
+      "n_gt": 3852,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Domestic sounds": {
+      "n_gt": 16159,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Walk / footsteps": {
+      "n_gt": 4315,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Door open/close": {
+      "n_gt": 501,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Music": {
+      "n_gt": 31921,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Musical instrument": {
+      "n_gt": 25382,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Water tap": {
+      "n_gt": 3485,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Bell": {
+      "n_gt": 1026,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Knock": {
+      "n_gt": 94,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    }
+  },
+  "mask_ap": 0.15075013445069393,
+  "mask_ap50": 0.1879570037126541,
+  "pearson_r": 0.5948037132090886,
+  "distance_mape": NaN
+}

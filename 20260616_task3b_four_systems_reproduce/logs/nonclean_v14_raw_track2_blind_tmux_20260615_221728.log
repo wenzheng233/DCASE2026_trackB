@@ -1,0 +1,11 @@
+[track2-shadow] frames=79 linked_frames=0 audio_links=79 metadata=0 missing_audio=0 shadow=/tmp/avseld_dcase2023_track2_blind_shadow
+[dummy-labels] wrote 79 JSON files to /home/yishuoyang/AV-SELD/v16_23prior/blind/dummy_labels_dev/dev-test-blind
+[blind-v16] START 2026-06-15 22:17:35 sequences=79 gpus=0,1,2,3,4,5
+[blind-v16] shard=0 gpu=0 seqs=14
+[blind-v16] shard=1 gpu=1 seqs=13
+[blind-v16] shard=2 gpu=2 seqs=13
+[blind-v16] shard=3 gpu=3 seqs=13
+[blind-v16] shard=4 gpu=4 seqs=13
+[blind-v16] shard=5 gpu=5 seqs=13
+[blind-v16] merged_predictions=79/79
+[blind-v16] DONE 2026-06-15 22:52:39 merged=/home/yishuoyang/AV-SELD/v16_23prior/blind/nonclean_v14_raw_track2_blind/merged_preds

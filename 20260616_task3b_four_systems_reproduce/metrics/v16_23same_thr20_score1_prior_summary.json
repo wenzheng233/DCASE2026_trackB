@@ -1,0 +1,18 @@
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/DCASE2026_Task3_SAISELD_baseline/experiments/official_eval_v16_clean_epoch1_full_20260611_g15/merged_preds",
+  "teacher_csv_dir": "/home/yishuoyang/AV-SELD/output/full_resnet_conformer_e20_20260402_234300_best7_eval_20260415/0.000050",
+  "out_dir": "/home/yishuoyang/AV-SELD/DCASE2026_Task3_SAISELD_baseline/experiments/prior23_sameinput_fast_20260615/v16_23same_thr20_score1_stairs_compact",
+  "match_thr_deg": 20.0,
+  "shift_to_teacher_doa": false,
+  "score_mode": "matched_one",
+  "unmatched": "keep",
+  "coord_convention": "stairs26",
+  "keep_teacher_metadata": false,
+  "input_annotations": 174980,
+  "output_annotations": 174980,
+  "matched": 58713,
+  "unmatched_count": 116267,
+  "class_changed": 32868,
+  "shifted": 0,
+  "mean_nearest_teacher_dist_deg": 52.73683181399549
+}

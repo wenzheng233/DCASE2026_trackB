@@ -1,0 +1,5 @@
+[track2-shadow] frames=79 linked_frames=0 audio_links=79 metadata=0 missing_audio=0 shadow=/tmp/avseld_dcase2023_track2_blind_shadow
+[dummy-labels] wrote 79 JSON files to /home/yishuoyang/AV-SELD/v16_23prior/blind/dummy_labels_dev/dev-test-blind
+[blind-v16-supp] START 2026-06-15 20:18:48 sequences=40 gpus=3,4 start_mix=40
+[blind-v16-supp] shard=0 gpu=3 seqs=20
+[blind-v16-supp] shard=1 gpu=4 seqs=20

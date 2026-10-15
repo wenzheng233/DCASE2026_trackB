@@ -1,0 +1,219 @@
+{
+  "macro_mAP": 0.14325666096798764,
+  "macro_AP50": 0.1648422454794248,
+  "macro_AP75": 0.0027043248313323907,
+  "macro_pearson_r": 0.5880680705078114,
+  "micro_mAP": 0.06934084502669673,
+  "micro_AP50": 0.0825698971748352,
+  "micro_AP75": 0.0026143791619688272,
+  "micro_pearson_r": 0.6139498203686503,
+  "micro_pearson_n": 27535,
+  "macro_AP_per_thr": [
+    0.26222341259320575,
+    0.1648422454794248,
+    0.0027043248313323907
+  ],
+  "micro_AP_per_thr": [
+    0.12283825874328613,
+    0.0825698971748352,
+    0.0026143791619688272
+  ],
+  "iou_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "breakdown_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "per_class": {
+    "Female speech": {
+      "n_gt": 27070,
+      "n_det": 17937,
+      "AP50": 0.18496739864349365,
+      "AP75": 0.0030514453537762165,
+      "mAP": 0.14954221760854125,
+      "AP_per_thr": [
+        0.2606078088283539,
+        0.18496739864349365,
+        0.0030514453537762165
+      ],
+      "pearson_r": 0.6717289861001244,
+      "pearson_n": 10536
+    },
+    "Male speech": {
+      "n_gt": 38297,
+      "n_det": 17595,
+      "AP50": 0.18667536973953247,
+      "AP75": 0.004776624962687492,
+      "mAP": 0.1479263100773096,
+      "AP_per_thr": [
+        0.25232693552970886,
+        0.18667536973953247,
+        0.004776624962687492
+      ],
+      "pearson_r": 0.5956119665142999,
+      "pearson_n": 13991
+    },
+    "Clapping": {
+      "n_gt": 693,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Telephone": {
+      "n_gt": 865,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Laughter": {
+      "n_gt": 3852,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Domestic sounds": {
+      "n_gt": 16159,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Walk / footsteps": {
+      "n_gt": 4315,
+      "n_det": 28247,
+      "AP50": 0.12288396805524826,
+      "AP75": 0.00028490417753346264,
+      "mAP": 0.1323014552181121,
+      "AP_per_thr": [
+        0.27373549342155457,
+        0.12288396805524826,
+        0.00028490417753346264
+      ],
+      "pearson_r": 0.4968632589090098,
+      "pearson_n": 3008
+    },
+    "Door open/close": {
+      "n_gt": 501,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Music": {
+      "n_gt": 31921,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Musical instrument": {
+      "n_gt": 25382,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Water tap": {
+      "n_gt": 3485,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Bell": {
+      "n_gt": 1026,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    },
+    "Knock": {
+      "n_gt": 94,
+      "n_det": 0,
+      "AP50": null,
+      "AP75": null,
+      "mAP": null,
+      "AP_per_thr": [
+        null,
+        null,
+        null
+      ],
+      "pearson_r": null,
+      "pearson_n": 0
+    }
+  },
+  "mask_ap": 0.14325666096798764,
+  "mask_ap50": 0.1648422454794248,
+  "pearson_r": 0.5880680705078114,
+  "distance_mape": NaN
+}

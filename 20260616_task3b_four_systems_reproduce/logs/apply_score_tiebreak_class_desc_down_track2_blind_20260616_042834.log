@@ -1,0 +1,21 @@
+[tiebreak] 10/79 files
+[tiebreak] 20/79 files
+[tiebreak] 30/79 files
+[tiebreak] 40/79 files
+[tiebreak] 50/79 files
+[tiebreak] 60/79 files
+[tiebreak] 70/79 files
+[tiebreak] 79/79 files
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_10_11_12_track2_blind/inference_outputs",
+  "out_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_tiebreak_class_desc_track2_blind",
+  "mode": "class_desc",
+  "epsilon": 1e-06,
+  "only_score": 1.0,
+  "seed": 0,
+  "direction": "down",
+  "digits": 12,
+  "files": 79,
+  "annotations": 38718,
+  "perturbed": 23416
+}

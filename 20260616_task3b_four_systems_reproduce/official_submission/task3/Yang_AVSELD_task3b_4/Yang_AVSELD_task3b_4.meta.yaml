@@ -1,0 +1,38 @@
+# Submission information
+submission:
+  label: Yang_AVSELD_task3b_4
+  name: Non-clean v14 raw risk candidate
+  abbreviation: V14Risk
+  authors:
+    - lastname: Yang
+      firstname: Yishuo
+      email: yishuoyang@example.com
+      corresponding: true
+      affiliation:
+        abbreviation: AVSELD
+        institute: AV-SELD local submission team
+        department: !!null
+        location: !!null
+
+system:
+  description:
+    model_type: Audiovisual
+    input_format: MIC
+    input_sampling_rate: 24kHz
+    acoustic_features: log mel spectra, learned spatial acoustic image masks
+    visual_features: RGB video frames, ResNet/Conformer audiovisual features
+    data_augmentation: weak-class sampling, frame/audio context sampling
+    machine_learning_method: ResNet-Conformer mask proposal model, 2023 AV-SELD teacher prior, deterministic post-processing
+    external_datasets: DCASE2023 Task3 development data for the teacher prior
+    pre_trained_models: 2023 full ResNet-Conformer AV-SELD checkpoint model_007
+    post_processing: Raw v14 blind prediction JSONs without the clean v16 plus 2023-prior post-process.
+    clean_status: non-clean
+  complexity:
+    total_parameters: 100000000
+  source_code: https://github.com/iranroman/DCASE2026_Task3_SAISELD_baseline
+
+results:
+  development_dataset:
+    overall:
+      mAP: 0.17580016
+      EFRQ: !!null

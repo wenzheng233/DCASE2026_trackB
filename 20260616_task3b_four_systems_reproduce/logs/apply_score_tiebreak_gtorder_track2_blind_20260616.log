@@ -1,0 +1,36 @@
+[tiebreak] 10/79 files
+[tiebreak] 20/79 files
+[tiebreak] 30/79 files
+[tiebreak] 40/79 files
+[tiebreak] 50/79 files
+[tiebreak] 60/79 files
+[tiebreak] 70/79 files
+[tiebreak] 79/79 files
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_6_c6thr0p22_no_3_5_7_8_11_track2_blind/inference_outputs",
+  "out_dir": "/home/yishuoyang/AV-SELD/v16_23prior/blind/v16_23same_thr14p5_score1_count_per_class_uncap_6_c6thr0p22_no_3_5_7_8_11_tiebreak_gtorder_track2_blind",
+  "mode": "custom_class",
+  "epsilon": 1e-06,
+  "only_score": 1.0,
+  "seed": 0,
+  "direction": "down",
+  "digits": 12,
+  "class_priority": {
+    "0": 11,
+    "1": 13,
+    "2": 4,
+    "3": 5,
+    "4": 7,
+    "5": 9,
+    "6": 8,
+    "7": 2,
+    "8": 12,
+    "9": 10,
+    "10": 6,
+    "11": 3,
+    "12": 1
+  },
+  "files": 79,
+  "annotations": 58245,
+  "perturbed": 21114
+}

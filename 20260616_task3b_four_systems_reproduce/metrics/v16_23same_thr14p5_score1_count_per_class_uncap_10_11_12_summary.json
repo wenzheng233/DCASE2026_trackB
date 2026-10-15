@@ -1,0 +1,25 @@
+{
+  "pred_dir": "/home/yishuoyang/AV-SELD/DCASE2026_Task3_SAISELD_baseline/experiments/prior23_sameinput_fast_20260616_extra/v16_23same_thr14p5_score1_stairs_compact/inference_outputs",
+  "teacher_csv_dir": "/home/yishuoyang/AV-SELD/output/full_resnet_conformer_e20_20260402_234300_best7_eval_20260415/0.000050",
+  "out_dir": "/home/yishuoyang/AV-SELD/DCASE2026_Task3_SAISELD_baseline/experiments/prior23_sameinput_fast_20260616_extra/v16_23same_thr14p5_score1_count_per_class_uncap_10_11_12_compact",
+  "count_mode": "per_class",
+  "keep_order": false,
+  "score_thr_by_class": {},
+  "default_score_thr": 0.0,
+  "uncapped_classes": [
+    10,
+    11,
+    12
+  ],
+  "input_annotations": 174980,
+  "output_annotations": 48917,
+  "dropped_score": 0,
+  "dropped_class": 20365,
+  "dropped_class_zero": 105698,
+  "dropped_total": 0,
+  "dropped_total_zero": 0,
+  "kept_class": 47163,
+  "kept_class_uncapped": 1754,
+  "kept_total": 0,
+  "invalid_category": 0
+}
